@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do</title>
+    <title>ToDoToo</title>
 </head>
 <body>
     <div class="sidebar">
-        <div class="title">📝to-do</div>
-        <h3 class="active">Projects</h3>
+        <div class="title">Projects</div>
+        <h3 class="active"></h3>
         <div class="projects-list" id="projects-list"> 
         </div>
         <div class="new-project-btn-div">
-            <button class="new-project-btn" id="new-project-btn">+ Create new project</button>
+            <button class="new-project-btn" id="new-project-btn">+ New project</button>
         </div>
         <div class="new-project-form" id="new-project-form">
             <form id="add-project" autocomplete="off">
-                <input type="text" id="new-project-name" placeholder="Enter project name">
+                <input type="text" id="new-project-name" placeholder="Enter project name" required>
                 <div class="new-project-buttons">
                     <button class="project-buttons add">✔</button>
                     <button id="project-cancel-button" class="project-buttons cancel">X</button>
@@ -74,8 +74,8 @@
         <div class="new-card">
             <button id='showForm' class="newCardBtn">+</button>
             <div>
-                <button id="delete-project" value="project-name">Delete project</button>
-                <button id="clear-storage">Clear entire storage</button>
+                <button class="toolbar" id="delete-project" value="project-name">Delete project</button>
+                <button class="toolbar" id="clear-storage">Clear entire storage</button>
             </div>
         </div>
     </div>
